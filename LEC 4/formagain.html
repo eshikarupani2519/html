@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><fieldset><legend>Login form</legend><form >
+    <!-- legend is a caption for your form -->
+    <div><label for="username">username</label>
+    <input type="text" placeholder="username" value="show" id="username" disabled></div>
+    <div><label for="password">password</label>
+        <input type="password" placeholder="password" id="password"></div>
+        <div><label for="password">confirm password</label>
+            <input type="password" placeholder="password" id="password" name="password" ></div>
+            <label for="">hidden below</label>
+            <input type="hidden" name="id" value="100">
+            <!-- disabled is for no change by user and hidden is to hide info from user but to send the same to backend -->
+             <div><input type="color"></div>
+             
+             <div><input type="file" name="file" id="file"></div>
+             <div><label for="gender">gender</label>
+                <br><label for="male">male</label>
+                <input type="radio" placeholder="" id="male" name="gender" value="M" >
+                <br><label for="female">female</label>
+                <input type="radio" placeholder="" id="female" name="gender" value="F"></div>
+                <!-- in radio button name should be same as we pass only one key as gender to backend and value for that key will be selected based on our selection -->
+                <div>
+                    <input type="checkbox" name="choice" id="fruits" value="fruits">
+                <label for="fruits">fruits</label>
+            <br><input type="checkbox" name="choice" id="veggies" value="veggies">
+            <label for="veggies">veggies</label></div>
+            <label for="fruit">select fruits</label>
+            <br><select name="fruit" id="fruit">
+            <option value="">enter option</option>
+            <option  value="watermelon">watermelon</option>
+        <option value="mango">mango</option></select>
+        <br><br><input type="submit" value="submit">
+        <input type="reset" value="reset">
+        <input type="button" value="button">
+       <button>buuttttoonnnnn</button>
+                
+</form>
+</fieldset>
+    
+</body>
+</html>
